@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 html {
@@ -8,21 +9,21 @@ html {
     color: #525354;
     font-family: 'Roboto',sans-serif;
     /*font-family: 'Roboto Slab', serif;*/
-    
+
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     font-size: 20px;
-  
+
     /*margin-right: 0;*/
- }
+}
 .row{
     margin-right: 0;
     margin-bottom: 2%;
     width: 98%;
 }
 body {
-     font-family: 'Roboto Slab', serif;
-    
+    font-family: 'Roboto Slab', serif;
+
 }
 
 
@@ -30,11 +31,12 @@ body {
 
 header {
     height: 6rem;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0,0.7))) ,  url(img/crowd2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.7)) ,  url(img/crowd2.jpg);
     background-size: cover;
     background-position: top;
-    
-        
+
+
 }
 
 .headline{
@@ -57,19 +59,19 @@ header {
 .span-1-of-4 {
     display: block;
     float: right;
-	width: 23.0%; 
-     margin-top: 2.5%;
+    width: 23.0%; 
+    margin-top: 2.5%;
     margin-left: 1%;
     margin-right: 0;
     height: 50rem;
-   
+
 }
 
 .span-3-of-4 {
     display: block;
     float: left;
-	width: 74.6%; 
-     margin-top: 2.5%;
+    width: 74.6%; 
+    margin-top: 2.5%;
     margin-right: 0%;
     margin-left: 0%;
     padding-left: 0%;
@@ -81,20 +83,20 @@ header {
 }
 .blogcont{
     padding-left: 2rem !important;
-     padding-right: 3rem !important;
+    padding-right: 3rem !important;
     height: auto !important;
 }
 .blogcont h3{
     color: #07285c;
     margin-bottom: 0;
-    
+
 }
 .blogcont p{
     font-size: 0.75rem;
     /*font-family:'Roboto Slab', serif;*/
     text-align: justify;
     padding-top: 0.5rem;
-   
+
 }
 .type7:hover {
     color: #07285c;
@@ -109,8 +111,8 @@ header {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
     border-bottom: 0.065rem solid #07285c;
-    
-    
+
+
 }
 .side-links a{
     display: block;
@@ -150,7 +152,7 @@ header {
 
 
 .h1-1{
-    
+
     color: #07285c;
 }
 /*************footer****************/
@@ -158,10 +160,10 @@ header {
 #footer{
     display: block;
     clear: both;
-   background-color: #525354;
+    background-color: #525354;
     height: 2.5rem;
-   
-    
+
+
 }
 #footer p{
     display:inline-block;
@@ -181,15 +183,15 @@ header {
 
 .blogcont2{
     padding-left: 2rem !important;
-     padding-right: 3rem !important;
+    padding-right: 3rem !important;
     height: auto !important;
-   
+
 }
 .blogcont2 h3{
     color: #07285c;
     margin-bottom: 0;
     padding-left: 2rem;
-    
+
 }
 .blogcont2 p{
     font-size: 0.9rem;
@@ -198,8 +200,8 @@ header {
     padding-top: 0.5rem;
     padding-left: 2rem;
     padding-right: 3rem;
-     margin-bottom: 0 !important;
-   
+    margin-bottom: 0 !important;
+
 }
 
 .subheading{
