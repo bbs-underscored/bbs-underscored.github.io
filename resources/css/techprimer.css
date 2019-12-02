@@ -1,0 +1,17 @@
+.span-1-of-4{
+    height: 70rem !important;
+}
+.span-3-of-4{
+    height: 70rem !important;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .span-1-of-4{
+        height: auto !important;
+    }
+    .span-3-of-4{
+        height: auto !important;
+    }
+
+}
